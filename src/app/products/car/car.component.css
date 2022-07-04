@@ -1,0 +1,23 @@
+body{
+  height: 80vh;
+  width: 100vw;
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.empty{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.car{
+  font-size: 25rem;
+}
+
+.text{
+  border-top: 4px solid #CBD4A7;
+  margin: 5rem;
+}

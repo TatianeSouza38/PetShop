@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+}
+
+header{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding-left: 50px;
+  background-color: #005B8F;
+  z-index: 10;
+}
+
+.nav-container{
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  height: 9vh;
+  padding: 0 20px;
+  background-color: #005B8F;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+
+h1{
+  font-size: 4rem;
+  cursor: pointer;
+  padding-bottom: 18px;
+}
+
+
+.pt1{
+  color: #F4A500;
+}
+
+.pt2{
+  color: white;
+  padding-right: 50px;
+}
+
+.logo-container{
+  height: 100%;
+  width: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+
+ul{
+  height: 100%;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+li{
+  transition: 0.5s ease;
+}
+
+a:hover{
+  background-color: #0270af;
+  border-radius: 8px;
+}
+
+a{
+  padding: 8px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bolder;
+  border: none;
+}
+
+.login:hover{
+  transition: 0.7s;
+}
+
+
+i{
+  font-size: 20px;
+}

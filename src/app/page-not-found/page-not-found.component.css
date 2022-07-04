@@ -1,0 +1,10 @@
+body{
+  width: 100wh;
+  height: 100vh;
+  background-image: url('../../assets/page-not-found.webp');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  cursor: pointer;
+}
+
