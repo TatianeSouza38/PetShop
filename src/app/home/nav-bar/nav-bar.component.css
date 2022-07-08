@@ -8,7 +8,7 @@ header{
   top: 0;
   width: 100%;
   padding-left: 50px;
-  background-color: #005B8F;
+  background-color: #34B4FF;
   z-index: 10;
 }
 
@@ -18,7 +18,7 @@ header{
   justify-content: space-between;
   height: 9vh;
   padding: 0 20px;
-  background-color: #005B8F;
+  background-color: #34B4FF;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
 }
@@ -46,32 +46,33 @@ h1{
   align-items: center;
   justify-content: space-between;
   gap: 10px;
+
 }
 
 
 ul{
-  height: 100%;
+  height: 90%;
   display: flex;
   list-style: none;
   align-items: center;
   justify-content: space-between;
-
+  background-color: #FF8E68;
+  border-radius: 10px;
 }
 
 li{
   transition: 0.5s ease;
 }
 
-a:hover{
-  background-color: #0270af;
-  border-radius: 8px;
+.right-btn:hover{
+ font-size: 30px;
 }
 
 a{
   padding: 8px;
   margin-top: 10px;
   text-decoration: none;
-  color: white;
+  color: rgb(242, 242, 70);
   cursor: pointer;
   font-weight: bolder;
   border: none;

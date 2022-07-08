@@ -1,0 +1,130 @@
+.products-container{
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product{
+  position: relative;
+  padding: 15px;
+  width: 30rem;
+  min-height: 40rem;
+  margin-bottom:2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-color: #F4FFC8;
+  padding: 15px;
+}
+
+.product-img{
+  width: 100%;
+}
+
+.btn{
+  width: 4rem;
+  height: 3rem;
+  border: none;
+  opacity: 0.5;
+  color: rgb(31, 30, 30);
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  position: absolute;
+  top: 36%;
+  bottom: 10px;
+  text-align: center;
+  padding: 0;
+}
+
+.car-btn{
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 100%;
+  height: 5rem;
+  width: 5rem;
+  display: none;
+}
+
+.product:hover .btn{
+  display: block;
+}
+
+.btn:focus{
+  outline: none;
+}
+
+.btn:hover{
+  opacity: 0.6;
+}
+
+.left{
+   transform: translate(0, -50%);
+   left: 0;
+   display: none;
+}
+
+.right{
+   transform: translate(0, -50%);
+   right: 0;
+   display: none;
+}
+
+.description{
+ display: flex;
+ flex-direction: column;
+ padding: 0.5rem;
+ height: 10rem;
+ background-color: #F4FFC8;
+}
+
+p{
+  font-family: Helvetica;
+  margin: 0;
+}
+
+.name{
+  font-size: 17px;
+}
+
+.price{
+  font-size: 23px;
+  color: orangered;
+}
+.ex-price{
+  font-size: 15px;
+  text-decoration: line-through;
+}
+
+.add-btn{
+  font-size: 2rem;
+  padding: 0.6rem;
+  font-weight: bolder;
+  border: none;
+  color: red;
+  background-color: white;
+  border-bottom: 1px solid rgb(204, 11, 11);
+  border-radius: 100%;
+  transition: all 0.5s;
+}
+
+.favoritado{
+  color: white;
+  background-color: red;
+}
+
+.name-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+.price-container{
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  height: 100%;
+}
+

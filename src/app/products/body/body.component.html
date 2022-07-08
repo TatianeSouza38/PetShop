@@ -1,0 +1,21 @@
+<body>
+<app-search-bar></app-search-bar>
+<div class="products-container">
+  <div class="product" *ngFor="let product of products">
+    <img id='{{ product.id }}'class="product-img" src='{{ product.img}}' alt="{{ product.description }}">
+    <button  class="btn car-btn"><i class="bi bi-cart4"></i></button>
+    <button (click)="changeImgLeft( product.id )" class="left btn"><span><i class="bi bi-arrow-left"></i></span></button>
+    <button  (click)="changeImgRight( product.id )" class="right btn"><span><i class="bi bi-arrow-right"></i></span></button>
+ <div class="description">
+   <div class="name-container">
+       <p class="name">{{ product.description }}</p>
+       <button class="add-btn" id='{{ product.idBtn }}' (click)="addToFavorite( product.idBtn )"><i class="bi bi-heart"></i></button>
+         </div>
+   <div class="price-container">
+       <p class="price">R${{ product.price }}</p>
+       <p class="ex-price">R${{ product.exPrice }}</p>
+       </div>
+    </div>
+ </div>
+</div>
+</body>

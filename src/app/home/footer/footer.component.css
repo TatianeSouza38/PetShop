@@ -1,5 +1,5 @@
 footer{
-  background: #005B8F;
+  background-color: #34B4FF;
   color: beige;
   padding: 15px;
   box-sizing: border-box;
@@ -25,7 +25,11 @@ li{
 
 a{
   cursor: pointer;
-  color: white;
+  color: black;
+}
+
+i{
+  font-family: Arial;
 }
 
 span{

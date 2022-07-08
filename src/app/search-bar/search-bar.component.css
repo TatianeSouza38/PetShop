@@ -2,8 +2,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #FF612C;
+  background-color: #FF8E68;
   padding: 20px;
+  margin:80px;
+  box-shadow: 5px 5px 20px 5px rgba(74, 74, 74, 0.75);
 }
 .search-box{
   width: 45%;
